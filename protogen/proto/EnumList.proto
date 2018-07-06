@@ -1,0 +1,9 @@
+
+enum NetMessageCmd
+{
+   LOGIN=1;
+   MONEY=2;
+
+
+
+}

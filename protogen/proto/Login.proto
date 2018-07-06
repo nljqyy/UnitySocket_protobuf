@@ -1,0 +1,42 @@
+
+message ReqLogin
+{
+ optional string username=1;
+ optional string account=2;
+ optional string password=3;
+
+}
+
+
+message RespLogin
+{
+ 
+ optional bool isWin=1;
+ optional int32 level=2;
+
+}
+
+message RespMoney
+{
+ 
+ optional int32 money=1;
+
+}
+
+message RespGuoLai
+{
+ 
+ optional string tou=1;
+ optional string lai=2;
+
+}
+
+message ReqHeartBeat
+{
+ optional int32 time=1;
+}
+
+message RespHeartBeat
+{
+  optional int32 time=1;
+}
